@@ -16,3 +16,7 @@ name.split() // Separates all strings into its own list //
 You can join things like this way -->
 
 'Hi, my friend\'s name are '.join(name)
+
+OR
+
+'My friend\'s name are {}.'.format(''.join(name))
