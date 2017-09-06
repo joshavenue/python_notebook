@@ -6,3 +6,8 @@ x['weapon'] = 'pistol'                              // This will add a new key i
 
 del x['name']                                       // This will delete specific key
 
+y['name']['first']                                  // This will create main and sub key
+
+print(y)
+
+// y = 'name': {'first': ...}
