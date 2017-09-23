@@ -12,3 +12,7 @@ open("filename.txt")
 
 # binary write mode
 open("filename.txt", "wb")
+
+file = open("filename.txt", "w")
+# do stuff to the file
+file.close()
