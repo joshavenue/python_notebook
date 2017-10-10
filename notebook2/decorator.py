@@ -10,3 +10,18 @@ def print_text():
 
 decorated = decor(print_text)
 decorated()
+
+##---------------------------##
+
+def p_t(foo):
+	def thang():	
+		print('bye')
+		foo()
+		print('mao')
+	return thang
+
+def stuff():
+	print('bing') 
+
+x = p_t(stuff)
+x()
